@@ -1,36 +1,66 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Carmech — Carmel Shoranur Entrepreneurship Cell (E-Cell) 🚀
 
-## Getting Started
+Official launch website for **Carmech**, the vanguard student entrepreneurship and innovation cell located at **Carmel Shoranur (Kallipadam, Palakkad District, Kerala)**.
 
-First, run the development server:
+Designed with a modern **Midnight Navy & Metallic Gold Glow** aesthetic, utilizing the latest web technologies for seamless, zero-config deployment on **Vercel**.
+
+---
+
+## 🌟 Highlights & Key Features
+
+- **Golden Blue Luxury Aesthetic**: Deep Midnight Navy (`#050814`), celestial blue accents, and rich metallic gold gradients (`#D4AF37`, `#F5D77F`) with glassmorphism and ambient glow borders.
+- **Dynamic 30-Day Launch Countdown**: High-impact countdown timer calculating days, hours, minutes, and seconds until the official inauguration.
+- **Carmel Shoranur Heritage & Vision**: Highlights the rich educational legacy of the Carmel CMI institution (Kallipadam, Shoranur) and its mission to foster student entrepreneurs and ethical tech leaders.
+- **Core E-Cell Pillars**:
+  - 💡 *Ideation & Hackathons*
+  - 🤝 *Mentorship & Guidance*
+  - 🚀 *Incubation & Prototyping*
+  - 🌐 *Kerala Startup Ecosystem Connect (KSUM & Angel networks)*
+- **Interactive Waitlist & Registration**:
+  - Validated registration for Students, Alumni, Faculty, and Mentors.
+  - Multi-colored confetti celebration upon registration.
+  - Priority queue number generator with copyable invite link.
+  - Instant local persistence (`localStorage`) — zero setup required.
+- **Organizer Registry & CSV Export**:
+  - Dedicated admin drawer/modal allowing coordinators to inspect submissions in real-time.
+  - One-click **Export to CSV** for registration management and event communication.
+
+---
+
+## 🛠️ Tech Stack
+
+- **Framework**: Next.js 16 (App Router)
+- **Styling**: Tailwind CSS v4 with custom golden-blue gradients & glassmorphic utilities
+- **Icons**: [Lucide React](https://lucide.dev/)
+- **Interactivity**: Canvas Confetti & Client-side LocalStorage Persistence
+- **Deployment**: Optimized for Vercel (zero-config, pre-rendered static output)
+
+---
+
+## 🚀 Getting Started
+
+### 1. Run Locally
 
 ```bash
+# Install dependencies
+npm install
+
+# Start development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) to view the website.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 2. Build for Production
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run build
+```
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 🌐 Deploy to Vercel
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. Push this repository to GitHub, GitLab, or Bitbucket.
+2. Import the project in [Vercel](https://vercel.com/new).
+3. Vercel automatically detects Next.js — click **Deploy**. No custom environment variables or external databases needed.
